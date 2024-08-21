@@ -1,0 +1,82 @@
+/* src/Styles/AdminDashboard.css */
+.admin-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+.admin-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-nav ul li {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.admin-nav ul li.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.search-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search-container input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 200px;
+}
+
+.logout-container {
+    display: flex;
+    align-items: center;
+}
+
+.logout-container button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.admin-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.admin-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-content th, .admin-content td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.admin-content th {
+    background-color: #f4f4f4;
+}
+
+.admin-content tr:hover {
+    background-color: #f1f1f1;
+}
+
+.admin-content p {
+    margin-top: 20px;
+}
